@@ -1,0 +1,50 @@
+.body-style {
+    background-color: #9de8ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+    margin-top: 5em;
+    border: 2px solid black;
+    background-color: #249bf0;
+}
+
+.landing-img {
+    height: 300px;
+    width: 340px;
+}
+
+.img-text {
+    color: #727272;
+}
+
+.caro-colors-next,
+.caro-colors-prev {
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-indicators{
+    background-color: #d8d8d8;
+    opacity: .7;
+}
+
+.carousel-indicators .active{
+    background-color: #3a3a3a;
+}
