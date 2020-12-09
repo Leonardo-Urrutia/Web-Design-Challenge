@@ -6,8 +6,9 @@
         <script src="https://kit.fontawesome.com/102e61d714.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <title>Document</title>
+        <title>Windspeed vs Latitude</title>
     </head>
+
     <body class="body-style">
         <header>
             <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #249bf0;">
@@ -38,14 +39,87 @@
                     </ul>
                 </div>
               </nav>
-            
-            
-            
-            
         </header>
-        <section><h1>Hello World!</h1></section>
 
-
+        <section class="container bucket">
+            <div class="row">
+                <div class="col-md-7 main-content-index">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="main-header-txt-index">Windspeed vs Latitude</h1>
+                            <hr style="width: auto;"/>
+                        </div>
+                        <div class="col-md-12">
+                            <img src="Resources/assets/images/Fig4.png" alt="Windspeed vs Latitude" class="visualization-img">
+                        </div>
+                        <div class="col-md-12">
+                            <p class="para-txt">The average wind speeds around 5 regardless of the relation to the equator, but there are a lot
+                                less anamolous wind speeds when looking directly at the equator. The further from the equator in both directors
+                                displays more locations that have wind speeds above 15 mph.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 main-content ml-auto">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="main-header-txt">Visualizations</h1>
+                            <hr style="width: auto;"/>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                                <ol class="carousel-indicators caro-colors">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <a href="visualization1.html"> <img class="d-block w-100" src="Resources/assets/images/Fig1.png" alt="First Plot"> </a>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="img-text">Max Temp vs. Latitude</h5>
+                                        <p class="img-text">Click to see analysis.</p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <a href="visualization2.html"> <img class="d-block w-100" src="Resources/assets/images/Fig2.png" alt="Second Plot"></a>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="img-text">Cloudiness vs. Latitude</h5>
+                                        <p class="img-text">Click to see analysis.</p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <a href="visualization3.html"> <img class="d-block w-100" src="Resources/assets/images/Fig3.png" alt="Third Plot"></a>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="img-text">Windspeed vs. Latitude</h5>
+                                        <p class="img-text">Click to see analysis.</p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <a href="visualization4.html"> <img class="d-block w-100" src="Resources/assets/images/Fig4.png" alt="Fourth Plot"></a>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="img-text">Humidity vs. Latitude</h5>
+                                        <p class="img-text">Click to see analysis.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon caro-colors" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon caro-colors" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="para-txt">Click on any of these plots for details on the visualization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

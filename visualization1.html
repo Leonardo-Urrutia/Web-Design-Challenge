@@ -6,8 +6,9 @@
         <script src="https://kit.fontawesome.com/102e61d714.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <title>Document</title>
+        <title>Max Temperature vs Latitude</title>
     </head>
+    
     <body class="body-style">
         <header>
             <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #249bf0;">
@@ -38,33 +39,28 @@
                     </ul>
                 </div>
               </nav>
-            
-            
-            
-            
         </header>
 
         <section class="container bucket">
             <div class="row">
-                <div class="col-md-8 main-content-index">
+                <div class="col-md-7 main-content-index">
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="main-header-txt-index">Max Temperature vs Latitude</h1>
                             <hr style="width: auto;"/>
                         </div>
                         <div class="col-md-12">
-                            <a href="visualization1.html"><img src="Resources/assets/images/Fig1.png" alt="Max Temp vs Latitude" class="visualization-img"></a>
+                            <img src="Resources/assets/images/Fig1.png" alt="Max Temp vs Latitude" class="visualization-img">
                         </div>
                         <div class="col-md-12">
-                            <p class="para-txt">The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                                To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-
-                            <p class="para-txt">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, windspeed, and humidity.
-                                The site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                            <p class="para-txt">There is a direct correlation with Latitude and Temperature. The closer to 0 degrees latitude (the
+                                equator), the hotter the average temperature gets. From the weather data pulled on January 5th, 2017, the average
+                                temperature is around 80 degrees. When visualizing the temperature and latitude on a scatter plot, a parabolic
+                                figure is represented with the apex being around 0 degrees latitude.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 main-content">
+                <div class="col-md-4 main-content ml-auto">
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="main-header-txt">Visualizations</h1>
@@ -82,7 +78,7 @@
                                   <div class="carousel-item active">
                                     <a href="visualization1.html"> <img class="d-block w-100" src="Resources/assets/images/Fig1.png" alt="First Plot"> </a>
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="img-text">Humidity vs. Latitude</h5>
+                                        <h5 class="img-text">Max Temp vs. Latitude</h5>
                                         <p class="img-text">Click to see analysis.</p>
                                     </div>
                                   </div>
@@ -103,7 +99,7 @@
                                   <div class="carousel-item">
                                     <a href="visualization4.html"> <img class="d-block w-100" src="Resources/assets/images/Fig4.png" alt="Fourth Plot"></a>
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="img-text">Max Temp vs. Latitude</h5>
+                                        <h5 class="img-text">Humidity vs. Latitude</h5>
                                         <p class="img-text">Click to see analysis.</p>
                                     </div>
                                   </div>
