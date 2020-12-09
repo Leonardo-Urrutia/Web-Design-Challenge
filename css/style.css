@@ -3,6 +3,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.bucket{
+    max-width:80%;
+}
+
 .main-content-index {
     margin-top: 5em;
     border: 2px solid black;
@@ -22,6 +26,8 @@
     position: relative;
     text-align: center;
     top: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .main-header-txt {
@@ -38,9 +44,23 @@
     margin-bottom: 20px;
 }
 
+.para-txt {
+    text-align: center;
+    margin-top: 15px;
+}
+
 .landing-img {
     height: 300px;
     width: 340px;
+    display: inline-block;
+}
+
+.visualization-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:auto;
 }
 
 .img-text {
